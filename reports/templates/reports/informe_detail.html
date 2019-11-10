@@ -12,6 +12,8 @@
                     <tr> <td>Informe Code </td> <td> {{ informe.informe_code }} </td> </tr>
                     <tr> <td>Informe Title </td> <td> {{ informe.title }} </td> </tr>
                     <tr> <td>Event DMEVA Code </td> <td> {{ informe.event.dmeva_code }} </td> </tr>
+                    <tr> <td>Mapa </td> <td><img src="{{ informe.event.mapa.url }}" alt="SatImage1" width="200" height="100"> </td> 
+                    <tr> <td> Grafico </td> <td><img src="{{ informe.event.grafico.url }}" alt="SatImage1" width="200" height="100"> </td> 
                     <tr> <td>Satelital Imagen 1 </td> <td> Satelital Imagen 2 </td> </tr>
                     <tr> <td><img src="{{ informe.satimage1.image.url }}" alt="SatImage1" width="200" height="100"> </td> 
                         <td> <img src="{{ informe.satimage2.image.url }}" alt="SatImage2" width="200" height="100"> </td> </tr>
